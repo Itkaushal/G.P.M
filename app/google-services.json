@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "947764100248",
+    "firebase_url": "https://my-pro-gp-default-rtdb.firebaseio.com",
+    "project_id": "my-pro-gp",
+    "storage_bucket": "my-pro-gp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947764100248:android:83df45b111b1df2f63a4ed",
+        "android_client_info": {
+          "package_name": "com.kaushal.myprogp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947764100248-af4ncnoucf25o3f28anmoc6eusfph55h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kaushal.myprogp",
+            "certificate_hash": "b100f451932f02db45638ef39fa0547838279c5b"
+          }
+        },
+        {
+          "client_id": "947764100248-2fh7fphr0bldspcvi6goc85brvccuchn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3qWkKfkJBj1N7wfREvsUyljw2Uyq7FlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947764100248-2fh7fphr0bldspcvi6goc85brvccuchn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

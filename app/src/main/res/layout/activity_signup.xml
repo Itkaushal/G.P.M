@@ -1,0 +1,77 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Signup"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:id="@+id/txt_1"
+       android:hint="name"
+       android:layout_marginTop="50dp"
+       android:textColor="@color/black"
+       android:textSize="25dp">
+   </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+       android:hint="Email"
+        android:id="@+id/txt_2"
+        android:textColor="@color/black"
+        android:textSize="25dp">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+       android:hint="Mobile"
+        android:textSize="25dp"
+        android:id="@+id/txt_3"
+        android:textColor="@color/black">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enrollment no."
+        android:id="@+id/txt_4"
+        android:textSize="25dp"
+        android:textColor="@color/black">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+       android:hint="Profession"
+        android:textSize="25dp"
+        android:id="@+id/txt_5"
+        android:textColor="@color/black">
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:hint="Gender"
+        android:textSize="25dp"
+        android:id="@+id/txt_6"
+        android:textColor="@color/black">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Sign Up Here"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:onClick="signup"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:id="@+id/btn_1"
+        android:background="@android:color/holo_green_light">
+    </Button>
+
+
+
+</LinearLayout>
